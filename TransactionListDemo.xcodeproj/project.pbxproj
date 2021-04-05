@@ -53,6 +53,7 @@
 		31A21EB3261AEB4C00628382 /* MockTransactionItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21EB2261AEB4C00628382 /* MockTransactionItemDetail.swift */; };
 		31A21EBB261AEC6200628382 /* MockFailureTransactionDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21EBA261AEC6200628382 /* MockFailureTransactionDetailInteractor.swift */; };
 		31A21EC0261AEF8700628382 /* UIOTransactionItemDetail+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21EBF261AEF8700628382 /* UIOTransactionItemDetail+Equatable.swift */; };
+		31A21EC6261AF08700628382 /* TransacationFacadeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21EC5261AF08700628382 /* TransacationFacadeTest.swift */; };
 		75C0F53B934DC11C9DDC969F /* Pods_TransactionListDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98165EEDBE5146A3997D0281 /* Pods_TransactionListDemoTests.framework */; };
 		9A9AF1F3DC0D1F7F4FE8F272 /* Pods_TransactionListDemo_TransactionListDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B0B93B0C25F90B501DE00A6 /* Pods_TransactionListDemo_TransactionListDemoUITests.framework */; };
 		CE1957F301C6958A6BACC15C /* Pods_TransactionListDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D87C69A844DF70A2C8E74B /* Pods_TransactionListDemo.framework */; };
@@ -128,6 +129,7 @@
 		31A21EB2261AEB4C00628382 /* MockTransactionItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTransactionItemDetail.swift; sourceTree = "<group>"; };
 		31A21EBA261AEC6200628382 /* MockFailureTransactionDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFailureTransactionDetailInteractor.swift; sourceTree = "<group>"; };
 		31A21EBF261AEF8700628382 /* UIOTransactionItemDetail+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIOTransactionItemDetail+Equatable.swift"; sourceTree = "<group>"; };
+		31A21EC5261AF08700628382 /* TransacationFacadeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransacationFacadeTest.swift; sourceTree = "<group>"; };
 		4B0B93B0C25F90B501DE00A6 /* Pods_TransactionListDemo_TransactionListDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransactionListDemo_TransactionListDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C75DF6E94080FC18B6C787 /* Pods-TransactionListDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransactionListDemo.debug.xcconfig"; path = "Target Support Files/Pods-TransactionListDemo/Pods-TransactionListDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		6180F3071659443DE8BF93A5 /* Pods-TransactionListDemo-TransactionListDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransactionListDemo-TransactionListDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-TransactionListDemo-TransactionListDemoUITests/Pods-TransactionListDemo-TransactionListDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 		31A21D13261AB89400628382 /* TransactionListDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				31A21EC4261AF07300628382 /* FacadeTest */,
 				31A21E9B261AE9C400628382 /* PresentersTests */,
 				31A21D14261AB89400628382 /* TransactionListDemoTests.swift */,
 				31A21E7F261AE92D00628382 /* XCTestCase+Helper.swift */,
@@ -457,6 +460,14 @@
 				31A21EBF261AEF8700628382 /* UIOTransactionItemDetail+Equatable.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		31A21EC4261AF07300628382 /* FacadeTest */ = {
+			isa = PBXGroup;
+			children = (
+				31A21EC5261AF08700628382 /* TransacationFacadeTest.swift */,
+			);
+			path = FacadeTest;
 			sourceTree = "<group>";
 		};
 		D78A00A065827420C38BB6D8 /* Frameworks */ = {
@@ -764,6 +775,7 @@
 				31A21EC0261AEF8700628382 /* UIOTransactionItemDetail+Equatable.swift in Sources */,
 				31A21EBB261AEC6200628382 /* MockFailureTransactionDetailInteractor.swift in Sources */,
 				31A21E8C261AE94400628382 /* TransactionListPresenterTest.swift in Sources */,
+				31A21EC6261AF08700628382 /* TransacationFacadeTest.swift in Sources */,
 				31A21E8F261AE94400628382 /* MockTransactionListPresenterDelegate.swift in Sources */,
 				31A21E8D261AE94400628382 /* MockSuccessTransactionListInteractor.swift in Sources */,
 				31A21E8E261AE94400628382 /* MockTransactionListItem.swift in Sources */,
