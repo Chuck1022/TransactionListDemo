@@ -1,0 +1,6 @@
+framework module Pods_TransactionListDemoTests {
+  umbrella header "Pods-TransactionListDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
