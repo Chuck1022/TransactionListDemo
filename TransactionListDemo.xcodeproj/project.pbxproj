@@ -22,6 +22,24 @@
 		31A21DB0261ACA0D00628382 /* ErrorViewPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21DAF261ACA0D00628382 /* ErrorViewPresentable.swift */; };
 		31A21DB9261ACA3500628382 /* UIOErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21DB8261ACA3500628382 /* UIOErrorInfo.swift */; };
 		31A21DC2261ACA5400628382 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21DC1261ACA5400628382 /* ErrorView.swift */; };
+		31A21DED261ACCAC00628382 /* BOTransactionListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21DE5261ACCAC00628382 /* BOTransactionListItem.swift */; };
+		31A21DEE261ACCAC00628382 /* TransactionListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21DE6261ACCAC00628382 /* TransactionListInteractor.swift */; };
+		31A21DEF261ACCAC00628382 /* TransactionListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21DE9261ACCAC00628382 /* TransactionListProtocol.swift */; };
+		31A21DF0261ACCAC00628382 /* DTOTransactionListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21DEB261ACCAC00628382 /* DTOTransactionListItem.swift */; };
+		31A21DF1261ACCAC00628382 /* TransactionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21DEC261ACCAC00628382 /* TransactionProtocol.swift */; };
+		31A21DF6261ACCF500628382 /* TransactionFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21DF5261ACCF500628382 /* TransactionFacade.swift */; };
+		31A21DFF261ADCB000628382 /* DLTransactionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21DFE261ADCB000628382 /* DLTransactionItem.swift */; };
+		31A21E07261ADD6400628382 /* TransactionListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21E06261ADD6400628382 /* TransactionListRepository.swift */; };
+		31A21E0D261ADDE900628382 /* TransactionItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21E0C261ADDE900628382 /* TransactionItemCell.swift */; };
+		31A21E17261ADF1900628382 /* TransactionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21E16261ADF1900628382 /* TransactionDetailView.swift */; };
+		31A21E20261ADF3300628382 /* UIOTransactionItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21E1F261ADF3300628382 /* UIOTransactionItemDetail.swift */; };
+		31A21E28261ADF5000628382 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21E27261ADF5000628382 /* DetailVC.swift */; };
+		31A21E2D261ADF7400628382 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21E2C261ADF7400628382 /* DetailPresenter.swift */; };
+		31A21E32261ADFA400628382 /* DTOTransactionItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21E31261ADFA400628382 /* DTOTransactionItemDetail.swift */; };
+		31A21E37261ADFB500628382 /* TransactionDetailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21E36261ADFB500628382 /* TransactionDetailProtocol.swift */; };
+		31A21E3C261ADFD400628382 /* TransactionItemDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21E3B261ADFD400628382 /* TransactionItemDetailInteractor.swift */; };
+		31A21E41261ADFEB00628382 /* BOTransactionItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21E40261ADFEB00628382 /* BOTransactionItemDetail.swift */; };
+		31A21E47261AE00C00628382 /* BOError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A21E46261AE00C00628382 /* BOError.swift */; };
 		75C0F53B934DC11C9DDC969F /* Pods_TransactionListDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98165EEDBE5146A3997D0281 /* Pods_TransactionListDemoTests.framework */; };
 		9A9AF1F3DC0D1F7F4FE8F272 /* Pods_TransactionListDemo_TransactionListDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B0B93B0C25F90B501DE00A6 /* Pods_TransactionListDemo_TransactionListDemoUITests.framework */; };
 		CE1957F301C6958A6BACC15C /* Pods_TransactionListDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D87C69A844DF70A2C8E74B /* Pods_TransactionListDemo.framework */; };
@@ -66,6 +84,24 @@
 		31A21DAF261ACA0D00628382 /* ErrorViewPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewPresentable.swift; sourceTree = "<group>"; };
 		31A21DB8261ACA3500628382 /* UIOErrorInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIOErrorInfo.swift; sourceTree = "<group>"; };
 		31A21DC1261ACA5400628382 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		31A21DE5261ACCAC00628382 /* BOTransactionListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BOTransactionListItem.swift; sourceTree = "<group>"; };
+		31A21DE6261ACCAC00628382 /* TransactionListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionListInteractor.swift; sourceTree = "<group>"; };
+		31A21DE9261ACCAC00628382 /* TransactionListProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionListProtocol.swift; sourceTree = "<group>"; };
+		31A21DEB261ACCAC00628382 /* DTOTransactionListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTOTransactionListItem.swift; sourceTree = "<group>"; };
+		31A21DEC261ACCAC00628382 /* TransactionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionProtocol.swift; sourceTree = "<group>"; };
+		31A21DF5261ACCF500628382 /* TransactionFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionFacade.swift; sourceTree = "<group>"; };
+		31A21DFE261ADCB000628382 /* DLTransactionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLTransactionItem.swift; sourceTree = "<group>"; };
+		31A21E06261ADD6400628382 /* TransactionListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListRepository.swift; sourceTree = "<group>"; };
+		31A21E0C261ADDE900628382 /* TransactionItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionItemCell.swift; sourceTree = "<group>"; };
+		31A21E16261ADF1900628382 /* TransactionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailView.swift; sourceTree = "<group>"; };
+		31A21E1F261ADF3300628382 /* UIOTransactionItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIOTransactionItemDetail.swift; sourceTree = "<group>"; };
+		31A21E27261ADF5000628382 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		31A21E2C261ADF7400628382 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		31A21E31261ADFA400628382 /* DTOTransactionItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTOTransactionItemDetail.swift; sourceTree = "<group>"; };
+		31A21E36261ADFB500628382 /* TransactionDetailProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailProtocol.swift; sourceTree = "<group>"; };
+		31A21E3B261ADFD400628382 /* TransactionItemDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionItemDetailInteractor.swift; sourceTree = "<group>"; };
+		31A21E40261ADFEB00628382 /* BOTransactionItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOTransactionItemDetail.swift; sourceTree = "<group>"; };
+		31A21E46261AE00C00628382 /* BOError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOError.swift; sourceTree = "<group>"; };
 		4B0B93B0C25F90B501DE00A6 /* Pods_TransactionListDemo_TransactionListDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransactionListDemo_TransactionListDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C75DF6E94080FC18B6C787 /* Pods-TransactionListDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransactionListDemo.debug.xcconfig"; path = "Target Support Files/Pods-TransactionListDemo/Pods-TransactionListDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		6180F3071659443DE8BF93A5 /* Pods-TransactionListDemo-TransactionListDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransactionListDemo-TransactionListDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-TransactionListDemo-TransactionListDemoUITests/Pods-TransactionListDemo-TransactionListDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +170,7 @@
 				31A21CFF261AB89400628382 /* SceneDelegate.swift */,
 				31A21D50261ABD0200628382 /* Transaction */,
 				31A21D95261AC92A00628382 /* Tools */,
+				31A21DE2261ACCAC00628382 /* TransactionKit */,
 				31A21D03261AB89400628382 /* Main.storyboard */,
 				31A21D06261AB89400628382 /* Assets.xcassets */,
 				31A21D08261AB89400628382 /* LaunchScreen.storyboard */,
@@ -163,6 +200,7 @@
 		31A21D50261ABD0200628382 /* Transaction */ = {
 			isa = PBXGroup;
 			children = (
+				31A21E14261ADEF800628382 /* Detail */,
 				31A21D54261ABD0900628382 /* List */,
 			);
 			path = Transaction;
@@ -171,6 +209,7 @@
 		31A21D54261ABD0900628382 /* List */ = {
 			isa = PBXGroup;
 			children = (
+				31A21E0B261ADDE200628382 /* Views */,
 				31A21D01261AB89400628382 /* TransactionListVC.swift */,
 				31A21D58261ABDF700628382 /* TransactionListPresenter.swift */,
 			);
@@ -180,6 +219,7 @@
 		31A21D95261AC92A00628382 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				31A21E45261ADFFE00628382 /* Error */,
 				31A21D99261AC94B00628382 /* UI */,
 			);
 			path = Tools;
@@ -228,6 +268,116 @@
 				31A21DC1261ACA5400628382 /* ErrorView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		31A21DE2261ACCAC00628382 /* TransactionKit */ = {
+			isa = PBXGroup;
+			children = (
+				31A21DE3261ACCAC00628382 /* Business */,
+				31A21DE7261ACCAC00628382 /* Data */,
+				31A21DE8261ACCAC00628382 /* Interfaces */,
+				31A21DF5261ACCF500628382 /* TransactionFacade.swift */,
+			);
+			path = TransactionKit;
+			sourceTree = "<group>";
+		};
+		31A21DE3261ACCAC00628382 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				31A21DE4261ACCAC00628382 /* Models */,
+				31A21DE6261ACCAC00628382 /* TransactionListInteractor.swift */,
+				31A21E3B261ADFD400628382 /* TransactionItemDetailInteractor.swift */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		31A21DE4261ACCAC00628382 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				31A21DE5261ACCAC00628382 /* BOTransactionListItem.swift */,
+				31A21E40261ADFEB00628382 /* BOTransactionItemDetail.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		31A21DE7261ACCAC00628382 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				31A21DFD261ADCA500628382 /* Models */,
+				31A21E06261ADD6400628382 /* TransactionListRepository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		31A21DE8261ACCAC00628382 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				31A21DEA261ACCAC00628382 /* Models */,
+				31A21DE9261ACCAC00628382 /* TransactionListProtocol.swift */,
+				31A21E36261ADFB500628382 /* TransactionDetailProtocol.swift */,
+				31A21DEC261ACCAC00628382 /* TransactionProtocol.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		31A21DEA261ACCAC00628382 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				31A21DEB261ACCAC00628382 /* DTOTransactionListItem.swift */,
+				31A21E31261ADFA400628382 /* DTOTransactionItemDetail.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		31A21DFD261ADCA500628382 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				31A21DFE261ADCB000628382 /* DLTransactionItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		31A21E0B261ADDE200628382 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				31A21E0C261ADDE900628382 /* TransactionItemCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		31A21E14261ADEF800628382 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				31A21E1E261ADF2700628382 /* Models */,
+				31A21E15261ADF0500628382 /* Views */,
+				31A21E27261ADF5000628382 /* DetailVC.swift */,
+				31A21E2C261ADF7400628382 /* DetailPresenter.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		31A21E15261ADF0500628382 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				31A21E16261ADF1900628382 /* TransactionDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		31A21E1E261ADF2700628382 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				31A21E1F261ADF3300628382 /* UIOTransactionItemDetail.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		31A21E45261ADFFE00628382 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				31A21E46261AE00C00628382 /* BOError.swift */,
+			);
+			path = Error;
 			sourceTree = "<group>";
 		};
 		D78A00A065827420C38BB6D8 /* Frameworks */ = {
@@ -491,15 +641,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31A21E07261ADD6400628382 /* TransactionListRepository.swift in Sources */,
 				31A21DB9261ACA3500628382 /* UIOErrorInfo.swift in Sources */,
+				31A21DF0261ACCAC00628382 /* DTOTransactionListItem.swift in Sources */,
 				31A21D02261AB89400628382 /* TransactionListVC.swift in Sources */,
 				31A21CFE261AB89400628382 /* AppDelegate.swift in Sources */,
+				31A21E3C261ADFD400628382 /* TransactionItemDetailInteractor.swift in Sources */,
+				31A21DFF261ADCB000628382 /* DLTransactionItem.swift in Sources */,
+				31A21E17261ADF1900628382 /* TransactionDetailView.swift in Sources */,
 				31A21DA4261AC9B200628382 /* DequeuableProtocol.swift in Sources */,
+				31A21E37261ADFB500628382 /* TransactionDetailProtocol.swift in Sources */,
+				31A21E41261ADFEB00628382 /* BOTransactionItemDetail.swift in Sources */,
+				31A21E32261ADFA400628382 /* DTOTransactionItemDetail.swift in Sources */,
 				31A21D00261AB89400628382 /* SceneDelegate.swift in Sources */,
+				31A21E0D261ADDE900628382 /* TransactionItemCell.swift in Sources */,
 				31A21DB0261ACA0D00628382 /* ErrorViewPresentable.swift in Sources */,
+				31A21DEF261ACCAC00628382 /* TransactionListProtocol.swift in Sources */,
 				31A21D59261ABDF700628382 /* TransactionListPresenter.swift in Sources */,
+				31A21E28261ADF5000628382 /* DetailVC.swift in Sources */,
+				31A21DF1261ACCAC00628382 /* TransactionProtocol.swift in Sources */,
+				31A21E47261AE00C00628382 /* BOError.swift in Sources */,
+				31A21DEE261ACCAC00628382 /* TransactionListInteractor.swift in Sources */,
+				31A21E2D261ADF7400628382 /* DetailPresenter.swift in Sources */,
 				31A21DC2261ACA5400628382 /* ErrorView.swift in Sources */,
+				31A21DF6261ACCF500628382 /* TransactionFacade.swift in Sources */,
 				31A21DA9261AC9CE00628382 /* UITableView+Dequeuable.swift in Sources */,
+				31A21DED261ACCAC00628382 /* BOTransactionListItem.swift in Sources */,
+				31A21E20261ADF3300628382 /* UIOTransactionItemDetail.swift in Sources */,
 				31A21D9C261AC97E00628382 /* ActivityIndicatorLodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
