@@ -7,6 +7,7 @@ target 'TransactionListDemo' do
 
   pod 'Alamofire'
   pod 'SnapKit'
+  pod 'Cache'
 
   # Pods for TransactionListDemo
 

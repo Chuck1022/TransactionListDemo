@@ -8,9 +8,14 @@
 import Foundation
 import Alamofire
 
+
 final class TransactionListRepository {
     
     func getTransactionList(onCompletion: @escaping (Result<[DLTransactionItem], Error>) -> Void) {
+        if let cachedList = TransactionListCacheService().getTransactionList() {
+            onCompletion(.success(cachedList))
+            return
+        }
         getFromExternalService(onCompletion: onCompletion)
     }
     
@@ -19,6 +24,7 @@ final class TransactionListRepository {
             .responseDecodable(of: [DLTransactionItem].self) { response in
                 switch response.result {
                 case .success(let items):
+                    TransactionListCacheService().save(list: items)
                     onCompletion(.success(items))
                 case .failure(let error):
                     onCompletion(.failure(error))
