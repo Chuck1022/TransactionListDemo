@@ -54,9 +54,11 @@ class TransactionListPresenterTest: XCTestCase {
         XCTAssertNil(updateError)
         XCTAssertEqual(updatedItems.count, 1)
         let firstItem = updatedItems.first
-        XCTAssertEqual(firstItem?.id, MockTransactionListItem.mockItem.id)
-        XCTAssertEqual(firstItem?.text, MockTransactionListItem.mockItem.text)
-        XCTAssertEqual(firstItem?.transactionDateText, MockTransactionListItem.mockItem.transactionDateText)
+        let mockItem = MockTransactionListItem()
+        
+        XCTAssertEqual(firstItem?.id, mockItem.id)
+        XCTAssertEqual(firstItem?.text, mockItem.text)
+        XCTAssertEqual(firstItem?.transactionDateText, mockItem.transactionDateText)
     }
     
     func test_updateList_onFailure() {
@@ -96,10 +98,11 @@ class TransactionListPresenterTest: XCTestCase {
             e.fulfill()
         }
         waitForExpectation()
+        let mockItem = MockTransactionListItem()
         let firstItem = presenter.getItem(at: IndexPath(row: 0, section: 0))
-        XCTAssertEqual(firstItem.id, MockTransactionListItem.mockItem.id)
-        XCTAssertEqual(firstItem.text, MockTransactionListItem.mockItem.text)
-        XCTAssertEqual(firstItem.transactionDateText, MockTransactionListItem.mockItem.transactionDateText)
+        XCTAssertEqual(firstItem.id, mockItem.id)
+        XCTAssertEqual(firstItem.text, mockItem.text)
+        XCTAssertEqual(firstItem.transactionDateText, mockItem.transactionDateText)
     }
     
     func test_onSelectItemAtIndexPath() {
@@ -115,7 +118,7 @@ class TransactionListPresenterTest: XCTestCase {
         }
         waitForExpectation()
         presenter.onSelectItem(at: IndexPath(row: 0, section: 0))
-        XCTAssertEqual(itemId, MockTransactionListItem.mockItem.id)
+        XCTAssertEqual(itemId, MockTransactionListItem().id)
     }
     
 }
